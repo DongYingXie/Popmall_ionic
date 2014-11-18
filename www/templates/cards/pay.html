@@ -1,0 +1,52 @@
+<ion-view title="填写订单">
+ <ion-nav-bar align-title="center" class="bar-stable nav-title-slide-ios7">
+  <ion-nav-back-button class="button-icon ion-arrow-left-c">
+      </ion-nav-back-button>
+  </ion-nav-bar>
+<ion-content>
+<div class="list list-inset mygreen" >
+	<div class="item gray-pg" >
+		<p><input type="checkbox"/></p>
+		<p>收货人姓名：tom</p>
+		<p>详细地址：广州市 天河区 体育东路 羊城国际商贸大厦</p>
+		<p><button class="button ">新建地址</button></p>
+		 
+	</div>
+	<div class="item gray-pg">
+		<p>送货日期</p>
+	<!--         <ion-radio ng-repeat="item in devList"
+                      ng-model="item.checked" 
+                      ng-value="item.checked">
+                      {{item.text}}
+        </ion-radio> -->
+        <div ng-repeat="item in devList">
+		<input type="radio" name="radiodate" ng-value="{{item.value}}" id="{{item.value}}"/><label for="{{item.value}}">  {{item.text}} </label><br/>
+	    </div>
+	</div>
+
+	<div class="item gray-pg">
+		<p>商品清单</p>	
+		<a class="item item-thumbnail-left" href="#/tab/logisticsDetail" style="border:none;">
+      <img src="img/wine.png">
+      <h2>Pretty Hate Machine</h2>
+       <p class="huanhang">Nine Inch Nails<br/>数量：<span >2</span>件</p>
+    </a> 
+	</div>
+	<div class="item gray-pg" >
+		<p>发票信息</p>		    
+		<input type="checkbox" id="checkboxs"/><label for="checkboxs"> 我要发票</label>
+		<p>发票类型：<input type="radio" name="pick" id="person"/><label for="person"> 个人</label> <input type="radio" name="pick" id="company"><label for="company"> 公司</label></p>
+		<p>发票抬头：<input type="text" style="display:inline;width:70%"></p>
+		<p>订单备注：<input type="text" style="display:inline;width:70%"></p>
+	 
+	</div>
+	<div class="item right-text gray-pg">
+		<p>小计：$12356</p>	 
+		<p>优惠：$0.00</p>	 
+		<p>总计：$123456</p>
+		<p><button class=" button button-balanced">提交订单</button></p>
+
+	</div>
+</div>
+</ion-content>
+</ion-view>

@@ -1,0 +1,33 @@
+
+
+<div class="list card" ng-repeat="new in news">
+
+  <div class="item item-avatar">
+    <img src="{{new.storeLogo}}">
+    <h2>{{new.storeName}}</h2>
+    <p>{{new.storeInfo}}</p>
+  </div>
+
+  <div class="item item-image">
+    <img src="{{new.storeImg}}">
+  </div>
+
+   <div class="item tabs tabs-secondary ">
+    <a class="tab-item" href="#">
+     
+      原价
+      <span style="text-decoration:line-through" >${{new.oldPrice}}</span>
+    </a>
+    <a class="tab-item" href="#">
+      
+      折扣
+      <span>{{new.discount}}折</span>
+    </a>
+    <a class="tab-item" href="#">
+     
+      节省
+      <span>${{new.saved}}</span>
+    </a>
+  </div>
+
+</div>

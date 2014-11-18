@@ -1,0 +1,57 @@
+[{
+	"sortchildId":"010",
+	"sortchildname":"手机通讯",
+		"sortchirlds":[
+	{
+		"childchildID":"010",
+		"childchildname":"三星"
+	},
+	{
+		"childchildID":"011",
+		"childchildname":"iphone"
+	},
+	{
+		"childchildID":"012",
+		"childchildname":"小米"
+	},
+	{
+		"childchildID":"013",
+		"childchildname":"HTC"
+	},
+	{
+		"childchildID":"014",
+		"childchildname":"索尼"
+	},
+	{
+		"childchildID":"015",
+		"childchildname":"诺基亚"
+	},
+	{
+		"childchildID":"016",
+		"childchildname":"联想"
+	}]
+	
+},
+{
+	"sortchildId":"024",
+	"sortchildname":"智能设备",
+		"sortchirlds":[
+	{
+		"childchildID":"010",
+		"childchildname":"智能手表"
+	},
+	{
+		"childchildID":"011",
+		"childchildname":"智能手环"
+	},
+	{
+		"childchildID":"012",
+		"childchildname":"智能防丢"
+	},
+	{
+		"childchildID":"013",
+		"childchildname":"运动追踪"
+	}]
+	
+}
+	]

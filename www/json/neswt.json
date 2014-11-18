@@ -1,0 +1,31 @@
+[
+{
+	"storeId":"2001",
+	"storeLogo":"img/ionic.png",
+	"storeName":"草柳人家旗舰店001",
+	"storeInfo":"nine inch Nails",
+	"storeImg":"img/41i58PICKrt.jpg",
+	"oldPrice":"158",
+	"discount":"5.0",
+	"saved":"79.0"
+},
+{
+	"storeId":"2002",
+	"storeLogo":"img/ionic.png",
+	"storeName":"草柳人家旗舰店002",
+	"storeInfo":"nine inch Nails",
+	"storeImg":"img/41i58PICKrt.jpg",
+	"oldPrice":"158",
+	"discount":"5.0",
+	"saved":"79.0"
+},{
+	"storeId":"2003",
+	"storeLogo":"img/ionic.png",
+	"storeName":"草柳人家旗舰店003",
+	"storeInfo":"nine inch Nails",
+	"storeImg":"img/41i58PICKrt.jpg",
+	"oldPrice":"158",
+	"discount":"5.0",
+	"saved":"79.0"
+}
+]

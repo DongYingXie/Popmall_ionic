@@ -1,0 +1,28 @@
+[{
+	 	"id":"1",
+	 	"name":"迷你手机",
+	 	"price":"100",
+	 	"detail":"三星还为GALAXY SIII mini装载了4.0英寸Super AMOLED触控屏，所支持的分辨率为WVGA规格，但还是搭载了Android 4.1 Jelly Bean操作系统，并且三星S Voice个人助理以及NFC近场通讯功能，也同样在该款手机中得到了保留",
+	 	"seller":"沃尔玛商场",
+	 	"selleraddr":"广州天河区",
+        "image":"img/iphone6.jpg"
+	 },
+	 {
+	 	"id":"2",
+	 	"name":"迷你手机",
+	 	"price":"100",
+	 	"detail":"三星GLAXY SIII mini采用一颗 ST-Ericsson U8420 双核 1GHz 处理器，并搭载1GB RAM / 8GB ROM ,达到了中端级别机型的主流水准，配合在速度上大幅优化的Android 4.1版本系统，不会出现卡顿感.玩大型游戏，看高清视频，自然也是十分顺畅",
+	 	"seller":"利客隆超市",
+	 	"selleraddr":"广州天河区",
+        "image":"img/12b.jpg"
+	 },
+	 {
+	 	"id":"3",
+	 	"name":"迷你手机",
+	 	"price":"100",
+	 	"detail":"三星GALAXY SIII mini还配备了1GHz双核处理器。而在手机的存储容量方面，三星则为该机带来了1GB运行内存，并提供8GB和16GB两种ROM容量版本选择，支持存储卡扩展功能",
+	 	"seller":"左拉商城",
+	 	"selleraddr":"广州天河区",
+        "image":"img/15b.jpg"
+	 }
+	 ]

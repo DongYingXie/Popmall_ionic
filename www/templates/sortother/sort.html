@@ -1,0 +1,17 @@
+<ion-view title="分类">
+	<ion-nav-bar>
+	  <ion-nav-back-button class="button-clear">
+	    <i class="ion-arrow-left-c"></i> Back
+	  </ion-nav-back-button>
+	</ion-nav-bar>
+<ion-content>
+<div class="list" >
+	<a class="item item-avatar forright" ng-href="#tab/sortotherchirld/{{sort.id}}" ng-repeat="sort in sorts">
+		<img src="{{sort.sortimg}}"/>
+		 <h2>{{sort.sortname}}</h2>
+		 <p>{{sort.sorttext}}</p>
+		 <i class="icon ion-chevron-right toright"></i>
+	</a>
+</div>
+</ion-content>
+</ion-view>

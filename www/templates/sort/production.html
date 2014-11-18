@@ -1,0 +1,71 @@
+<ion-view title="商品详情" class="padding" style="color:green">
+  <ion-nav-bar>
+        <ion-nav-back-button class="button-clear">
+          <i class="ion-arrow-left-c"></i> Back
+        </ion-nav-back-button>
+        <ion-nav-buttons side="right">
+             <button class="button button-clear  ion-android-share " ng-click="shareAnywhere()"></button>
+       </ion-nav-buttons>
+     
+    </ion-nav-bar>
+  <ion-content has-header="true" padding="true">
+  <div>
+  <ul class="list inset-list">
+    <li class="item"> 
+  <ion-slide-box style="height:100%;width:100%">
+      <ion-slide>
+          <img src="img/iphone1.jpg"/>
+      </ion-slide>
+      <ion-slide>
+          <img src="img/iphone2.jpg"/>
+      </ion-slide>
+      <ion-slide>
+          <img src="img/iphone3.jpg"/>
+      </ion-slide>     
+       <ion-slide>
+          <img src="img/iphone2.jpg"/>
+      </ion-slide>     
+       <ion-slide>
+          <img src="img/iphone3.jpg"/>
+      </ion-slide>
+  </ion-slide-box>
+    </li>
+<!--     <li class="item">
+         <div class="row">
+		  <div class="col ">
+		  	<a class="item item-thumbnail-left" style="border-width:0;padding-right: 0px !important;">
+			      <img ng-src="{{items.picture}}">
+            <span>名称：{{items.name}}</span><br/>
+            <span>价格：￥{{items.price}}</span><br/>
+            <p><span>尺寸：{{items.size}}</span>  
+            </p>
+            <p>数量：<i class="icon ion-minus-circled" ng-click="reduNum()"></i>&nbsp;&nbsp;<input type="text" ng-model='items.numbers'class="inputwidth"/>&nbsp;&nbsp;<i class="icon ion-plus-circled" ng-click="addNum()"></i></p>
+
+			    </a>
+		  </div>
+		</div>
+    </li> -->
+    <li class="item">
+            <p><span>价格：￥{{items.price}}</span></p>
+            <p><span>尺寸：{{items.size}}</span>  
+            </p>
+            <p>数量：<i class="icon ion-minus-circled" ng-click="reduNum()"></i>&nbsp;&nbsp;<input type="text" ng-model='items.numbers'class="inputwidth"/>&nbsp;&nbsp;<i class="icon ion-plus-circled" ng-click="addNum()"></i></p>  
+    </li>
+    <li class="item">
+      <div class="row">
+        <div class="col col-50"><button ng-click="quickbug()" class=" button icon ion-card"  style="color:green"> 立即购买</button></div>
+        <div class="col col-50"><button ng-click="addcart()" class=" button  icon ion-ios7-cart-outline " style="color:green"> 加入购物车</button></div>
+      </div>
+    </li>
+    
+      <div class="button-bar">
+        <a class="button"  ng-click="menupred('propgrag')" ng-class="{swipelight:'propgrag'==ifclass}">商品参数</a>
+        <a class="button"  ng-click="menupred('propcomt')" ng-class="{swipelight:'propcomt'==ifclass}">评论</a>
+        <a class="button"  ng-click="menupred('propict')" ng-class="{swipelight:'propict'==ifclass}">图文详细</a>
+      </div>
+      <div ui-view name="productionview"></div>
+
+</ul>
+</div>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,15 @@
+propcomt
+.state('instance-ticket', {
+  url: '/ticket/:instanceID',      // instanceID
+  templateUrl: 'partials/instance-ticket',
+  controller: 'ViewTicketCrtl'
+})
+.state('instance-ticket.worklog', {
+  // new param defintion
+  url: '/worklog/:testnum',         // testnum
+  views:{
+    'top-section':{
+      templateUrl:'/partials/ticket.worklog.jade',
+      controller: 'ViewWorklogCrtl'
+      }
+  }

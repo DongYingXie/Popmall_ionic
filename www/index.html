@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="lib/ng-cordova.min.js"></script>
+    <script src="cordova.js"></script>
+    <script src="lib/ionic/js/angular-resource.min.js"></script>
+    <script src="js/angular-ui-router.min.js"></script>
+  </head>
+  <body ng-app="starter" animation="no-animation" ng-controller="RootCtrl" class="platform-ios" >
+    <script type="text/javascript">
+    var extraInfo = cordova.require('cn.net.wenzhixin.cordova.ExtraInfo');
+
+    extraInfo.getExtra(function(message) {
+        // alert(message);
+    }, function(message) {
+        // alert(message);
+    });
+    </script>
+    <!-- 
+      The nav bar that will be updated as we navigate between views.
+    -->
+ <!-- <ion-nav-bar class="nav-title-slide-ios7 bar-balanced"> -->
+
+    <!-- </ion-nav-bar> -->
+    <!-- 
+      The views will be rendered in the <ion-nav-view> directive below
+      Templates are in the /templates folder (but you could also
+      have templates inline in this html file if you'd like).
+    -->
+    <ion-nav-view> </ion-nav-view>
+<script id="popover.html" type="text/ng-template">
+      <ion-popover-view>
+        <ion-content>
+          <div>
+            <a class="item" href="" ng-click="openModal()">
+              登录
+            </a>
+            <a class="item" ng-click="openRegister()">
+             注册
+            </a>
+          </div>
+        </ion-content>
+      </ion-popover-view>
+    </script>
+    <script id="my-modal.html" type="text/ng-template">
+  <ion-modal-view>
+    <ion-header-bar>
+      <h1 class="title" style="color:green">登录</h1>
+    <button class="icon-left ion-android-system-back button-clear button-dark" ng-click="closeModal()"></button>
+
+    </ion-header-bar>
+    <ion-content>
+     <div class="list list-inset">
+  <label class="item item-input">
+    <i class="icon ion-ios7-telephone-outline placeholder-icon"></i>
+    <input type="text" placeholder="手机号">
+  </label>
+ <label class="item item-input">
+    <i class="icon ion-ios7-eye placeholder-icon"></i>
+    <input type="text" placeholder="密码">
+  </label>
+  <button class="button button-block button-stable">登录</button>
+
+  <div class="row">
+    <div class="col col-75"><a ng-click="openRegister()">找回密码</a></div>
+    <div class="col"> <a ng-click="openRegister()">还没帐号？马上注册</a></div>
+  </div>
+ 
+</div>
+    </ion-content>
+  </ion-modal-view>
+</script>  
+  <script id="my-modal01.html" type="text/ng-template">
+  <ion-modal-view>
+    <ion-header-bar>
+      <h1 class="title" style="color:green">用户注册</h1>
+    <button class="icon-left ion-android-system-back button-clear button-dark" ng-click="closeRegister()"></button>
+
+    </ion-header-bar>
+    <ion-content>
+ <div class="list list-inset">
+  <label class="item item-input">
+    <i class="icon ion-ios7-telephone-outline placeholder-icon"></i>
+    <input type="text" placeholder="手机号">
+  </label>
+   <label class="item item-input">
+    <i class="icon ion-person placeholder-icon"></i>
+    <input type="text" placeholder="名称">
+  </label>
+ <label class="item item-input">
+    <i class="icon ion-ios7-eye placeholder-icon"></i>
+    <input type="text" placeholder="密码">
+  </label>
+   <label class="item item-input">
+    <i class="icon ion-ios7-eye placeholder-icon"></i>
+    <input type="text" placeholder="确认密码">
+  </label>
+  <button class="button button-block button-balanced">注册</button>
+  <button class="button button-block button-stable">取消</button>
+  
+</div>
+    </ion-content>
+  </ion-modal-view>
+</script>
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/services.js"></script>
+    <script src="js/home.js"></script>
+    <script src="js/morepage.js"></script>
+    <script src="js/cardpage.js"></script>
+    <script src="js/sortotherCtr.js"></script>
+
+    <script src="http://192.168.0.108:8080/target/target-script-min.js#anonymous"></script>
+  </body>
+</html>

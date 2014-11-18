@@ -1,0 +1,40 @@
+
+<ion-view class="padding" style="color:green" title="分类">
+      <ion-nav-bar>
+        <ion-nav-back-button class="button-clear">
+          <i class="ion-arrow-left-c"></i> Back
+        </ion-nav-back-button>
+      </ion-nav-bar>
+      <div class="bar bar-subheader" style="padding:0px !important;">
+          <div class="button-bar " style="height:100%" >
+            <a class="button colorwhite" ng-click="choocesort('tatol')" ng-class="{chosedir:'tatol'==ifchooce}">综合</a>
+            <a class="button colorwhite" ng-click="choocesort('sale')" ng-class="{chosedir:'sale'==ifchooce}">销量</a>
+            <a class="button colorwhite" ng-click="choocesort('price')" ng-class="{chosedir:'price'==ifchooce}">价格</a>
+            <a class="button colorwhite" ng-click="choocesort('comment')" ng-class="{chosedir:'comment'==ifchooce}">评价</a>
+        </div>
+      </div>
+
+
+  <ion-content class="padding" style="top:89px;">
+  <div>
+  <ion-refresher pulling-text=" 下拉更新订单" on-refresh="doReFresh()">
+      </ion-refresher>
+<ul>
+  <li class="debili"  ng-repeat="sordbyID in items">
+    <a class="debia" href="#tab/production/{{sordbyID.id}}">
+     <img ng-src="{{ sordbyID.image }}">
+      <h2>{{sordbyID.name}} </h2>
+      <p>{{sordbyID.detail}}</p>    
+       
+      <span class="myred">$:{{sordbyID.price}}<span/>
+      <br/>
+      <div class="forright mygay">
+        共有11个商家
+        <em class="debiright">￥ 3510.00 起售</em>
+      </div>
+    </a>
+  </li>
+</ul>
+</div>
+  </ion-content>
+</ion-view>

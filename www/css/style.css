@@ -1,0 +1,289 @@
+/* Empty. Add your own CSS if you like */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td,section,article,aside,header,footer,nav,dialog,figure,hgroup{margin:0;padding:0;}
+table {border-collapse:collapse;border-spacing:0}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+ul,ol,li{list-style:none}
+em,i{font-style:normal}
+img{border:0;}
+input,img{vertical-align:middle;}
+input:focus{outline:none;}
+a{color:#333;text-decoration:none;}
+*{-webkit-tap-highlight-color: rgba(0,0,0,0);}
+html{font-size:12px;}
+.ion-android-sort:before {
+  color:green;
+  }.ion-more:before {
+	color:green;
+  }
+  .ion-android-locate:before {
+	color:green;
+  }
+  .ion-ios7-home:before {
+	color:green;
+  }
+  .ion-ios7-paper:before {
+	color:green;
+  }
+  /*tabs end*/
+  .ion-ios7-cart:before {
+	color:green;
+  } 
+   .ion-person:before {
+	color:green;
+  } 
+   .ion-ios7-telephone:before {
+	color:green;
+  }
+    .ion-email:before {
+	color:green;
+  } 
+   .ion-location:before {
+	color:green;
+  }  
+  .ion-social-usd:before {
+	color:green;
+  }  
+  .ion-social-yahoo:before {
+	color:green;
+  } 
+   .ion-social-bitcoin:before {
+	color:green;
+  }
+  .ion-ios7-checkmark:before {
+	color:green;
+  }
+  .ion-chatbubble-working:before {
+	color:green;
+  }
+  .ion-power:before {
+	color:green;
+  } 
+  .ion-navigate:before {
+	color:green;
+  }
+   .ion-person-add:before {
+	color:green;
+  }
+  .ion-log-out:before {
+	color:green;
+  }.ion-ios7-telephone-outline:before {
+	color:green;
+  }.ion-ios7-eye:before {
+	color:green;
+  }.ion-android-system-back:before {
+  color:green;
+  }
+  .ion-android-system-back:before {
+  color:green;
+  }.ion-ios7-search:before {
+	color:green;
+  }
+  ..ion-ios7-search:before {
+  color:green;
+  }
+  .ion-arrow-left-c:before {
+  color:green;
+  }.ion-ios7-cart-outline:before {
+  color:green;
+  }.ion-card:before {
+  color:green;
+  }.ion-minus-circled:before {
+  color:green;
+  }.ion-plus-circled:before {
+  color:green;
+  }.ion-arrow-right-c:before {
+  color:green;
+  }.ion-ios7-fastforward-outline:before {
+  color:green;
+  }.ion-android-share:before {
+  color:green;
+  }
+.box-sort{
+border:inherit 5px #000000;
+-moz-border-radius-topleft: 14px;
+-moz-border-radius-topright:14px;
+-moz-border-radius-bottomleft:14px;
+-moz-border-radius-bottomright:14px;
+-webkit-border-top-left-radius:14px;
+-webkit-border-top-right-radius:14px;
+-webkit-border-bottom-left-radius:14px;
+-webkit-border-bottom-right-radius:14px;
+border-top-left-radius:14px;
+border-top-right-radius:14px;
+border-bottom-left-radius:14px;
+border-bottom-right-radius:14px;
+-moz-box-shadow:inset 1px -2px 5px #03331c;
+-webkit-box-shadow:inset 1px -2px 5px #03331c;
+box-shadow:inset 1px -2px 5px #03331c;
+
+}
+.bar.bar-stable .title .greencolor {
+color: green;
+}
+.item-radio .item-content {
+width: 10%;
+}
+
+.regular-checkbox + label {
+background-color: #fafafa;
+border: 1px solid #cacece;
+box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+padding: 9px;
+border-radius: 3px;
+display: inline-block;
+position: relative;
+}
+
+.regular-checkbox + label:active, .regular-checkbox:checked + label:active {
+box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+.regular-checkbox:checked + label {
+background-color: #e9ecee;
+border: 1px solid #adb8c0;
+box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+color: #99a1a7;
+}
+
+.regular-checkbox:checked + label:after {
+content: '2714';
+font-size: 14px;
+position: absolute;
+top: 0px;
+left: 3px;
+color: #99a1a7;
+}
+.inputwidth{
+display: inline !important;
+width: 50px;
+height:20px !important;
+border:1px solid green !important; 
+}
+.wrap a{
+      display:block; 
+      position:relative;
+    }
+    
+    .wrap a img{
+      width:100%;
+      height:100%;
+    }
+    .wrap a p{
+      position:absolute;
+      display:block;
+      width:100%;
+      left:0px;
+      bottom:0px;
+      background:rgba(0,0,0,.5);
+      color:#FFF;
+      text-align:center;
+      margin:0px
+    }
+    .swipelight{
+      border-bottom: solid 3px green !important;
+
+    }
+    .buttonother{
+      line-height: normal !important;
+      min-height: 16px !important;
+    }
+    .rowother{
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+    .itemother{
+      padding: 0px !important;
+    }
+    .popover{
+      height:120px;width:80px;
+    }
+    .huanhang{
+      white-space: normal !important;
+    }
+    .mygreen{
+      color:green !important;
+    }
+    .myred{
+      color:red;
+    }
+    .mygay{
+        color: #707070;
+    }
+    .myposition{
+      position:relative ;
+    }
+    .right-position{
+     position:absolute;
+     top:40%;
+     right:3%;
+    }
+    .right-text{
+      text-align: right;
+    }
+    .green-pg{
+      background-color: green;
+      color:white;
+    }
+    .gray-pg{
+      background-color:rgba(230,230,230,0.7);
+
+    }
+    .forright{
+      position: relative;
+    }
+    .toright{
+      position: absolute;
+      top:40%;
+      right:5%;
+    }
+    .colorwhite{
+      background-color: #fff !important;
+     
+
+    }
+    .debili{
+      border: solid 1px rgb(220,220,220);
+      position:relative;
+      padding-left: 100px ;
+
+    }
+    .debia{
+   
+    }
+    .debia img{
+      position: absolute;
+      top:15px;
+      left:10px;
+      max-width: 80px;
+      max-height: 80px;
+    }
+    .debia h2{
+      margin:5px 0 0 0;
+     /* font-weight: 400;*/
+      color: #313131;
+      overflow: hidden;
+    }
+    .debia p{
+      color: #707070;
+      overflow: hidden;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+    }
+    .debiright{
+      position: absolute;
+      bottom: 0px;
+      right:0px;
+    }
+    .scroll{
+      height:100% !important;
+    }
+    .chosesort{
+   border-left: 2px solid rgb(72,166,70);
+    }
+    .chosedir{
+     border-bottom: 4px solid rgb(72,166,70);
+     color:rgb(72,166,70);
+    }
+    .nopadding{
+      padding: 0px !important;
+    }

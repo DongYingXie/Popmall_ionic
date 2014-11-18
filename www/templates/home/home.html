@@ -1,0 +1,17 @@
+
+<ion-view title="">
+     <div class="bar bar-header">
+      <h1 class="title" style="color:green">PoPMall</h1>
+    </div>
+<div class="bar bar-subheader" >
+    <div class="row">
+  <div class="col col-25 tab-item" ng-class="{swipelight:'tab.home.recommend'==ifShow}"> <a on-swipe-left="RToBrandByL()" ng-click="gotoview('tab.home.recommend')" >推荐</a></div>
+  <div class="col col-25 tab-item" ng-class="{swipelight:'tab.home.brand'==ifShow}"><a  on-swipe-left="BToNewByL()" on-swipe-right="BToRecomdByR()" ng-click="gotoview('tab.home.brand')">品牌</a></div>  
+  <div class="col col-25 tab-item" ng-class="{swipelight:'tab.home.newest'==ifShow}"><a  on-swipe-left="NToBuyingByL()" on-swipe-right="NToBrandByR()" ng-click="gotoview('tab.home.newest')">最新发布</a></div>
+  <div class="col col-25 tab-item" ng-class="{swipelight:'tab.home.panicbuying'==ifShow}"><a   on-swipe-right="BToNewByR()" ng-click="gotoview('tab.home.panicbuying')">抢购</a></div>
+</div>
+</div>
+  <ion-content class="padding" style="top:89px;">
+  <div ui-view name="inception" on-swipe-left="swipetoleft()" on-swipe-right="swipetoright()"></div>  
+  </ion-content>
+</ion-view>

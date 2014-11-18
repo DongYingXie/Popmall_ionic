@@ -1,0 +1,14 @@
+ <ion-header-bar align-title="center" class="bar-stable">
+  <h1 class="title" style="color:green">商店</h1>
+</ion-header-bar>
+<ion-view title="store">
+  <ion-content class="padding">
+    <div style="margin-top:50%"></div>
+     <div class="row">
+	  <div class="col col-75"><input type="text" placeholder="商品名称" style="margin-top:20px;border-bottom:solid 1px green"></div>
+	  <div class="col"><button class="button button-block button-balanced">搜索</button></div>
+	</div>
+    <button class="button button-block icon-left ion-qr-scanner button-balanced" ng-click="scanBarcode()" >扫一扫</button>
+     <a class="button icon icon-right ion-chevron-right" href="#/tab/home">Scientific Facts</a>
+  </ion-content>
+</ion-view>

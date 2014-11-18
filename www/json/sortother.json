@@ -1,0 +1,59 @@
+[{
+	"id":"01",
+	"sortname":"手机/数码/配件",
+	"sorttext":"手机通讯/摄影摄像/配件",
+	"sortimg":"img/iphone6.jpg"
+},{
+	"id":"02",
+	"sortname":"电脑/办公/外设",
+	"sorttext":"电脑整机/网络设备/办公打印",
+	"sortimg":"img/competer.jpg"
+},{
+	"id":"03",
+	"sortname":"家用电器",
+	"sorttext":"电视/冰箱洗衣机/空调/厨房用具",
+	"sortimg":"img/water.jpg"
+},{
+	"id":"04",
+	"sortname":"钟表/首饰/礼品",
+	"sorttext":"手表/首饰/工艺礼品",
+	"sortimg":"img/shoub.jpg"
+},{
+	"id":"05",
+	"sortname":"汽车/配件/用品",
+	"sorttext":"行车记录仪/坐垫脚垫/润滑油",
+	"sortimg":"img/car.jpg"
+},{
+	"id":"01",
+	"sortname":"手机/数码/配件",
+	"sorttext":"手机通讯/摄影摄像/配件",
+	"sortimg":"img/7.png"
+},{
+	"id":"01",
+	"sortname":"手机/数码/配件",
+	"sorttext":"手机通讯/摄影摄像/配件",
+	"sortimg":"img/8.png"
+},{
+	"id":"01",
+	"sortname":"手机/数码/配件",
+	"sorttext":"手机通讯/摄影摄像/配件",
+	"sortimg":"img/9.png"
+},{
+	"id":"01",
+	"sortname":"手机/数码/配件",
+	"sorttext":"手机通讯/摄影摄像/配件",
+	"sortimg":"img/4.png"
+},{
+	"id":"01",
+	"sortname":"手机/数码/配件",
+	"sorttext":"手机通讯/摄影摄像/配件",
+	"sortimg":"img/5.png"
+},{
+	"id":"01",
+	"sortname":"手机/数码/配件",
+	"sorttext":"手机通讯/摄影摄像/配件",
+	"sortimg":"img/6.png"
+}
+
+
+]

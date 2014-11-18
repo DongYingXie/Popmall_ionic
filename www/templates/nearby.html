@@ -1,0 +1,17 @@
+<ion-header-bar align-title="center" class="bar-stable">
+  <h1 class="title" style="color:green">附近</h1>
+   <button class="button icon-left ion-navigate" ng-click="getlocation()">定位</button>
+</ion-header-bar>
+<ion-view title="nearby">
+  <ion-content class="padding">
+   <div class="list">
+
+		    <a class="item item-thumbnail-left" href="#" ng-repeat="item in nearbyitems">
+		      <img ng-src="{{item.image}}">
+		      <h2>位置：<{{item.city}} {{item.area}} {{item.shop}}></h2>
+		      <p style="color:red">品牌：{{item.brand}} 时限：{{item.timelimit}}</p>
+		    </a>
+
+		</div>
+  </ion-content>
+</ion-view>

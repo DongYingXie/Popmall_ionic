@@ -1,0 +1,17 @@
+<ion-view title="子分类">
+<ion-nav-bar>
+  <ion-nav-back-button class="button-clear">
+    <i class="ion-arrow-left-c"></i> Back
+  </ion-nav-back-button>
+</ion-nav-bar>
+  <ion-content style="height:100%">
+  <div class="row " style="height:100%">
+    <div class="col col-50 nopadding" >
+        <a class="item" ng-href="" ng-repeat="sortchild in sortschild" ng-click="getchilddata($index)" ng-class="{chosesort:$index==ifchoose}">{{sortchild.sortchildname}}</a>
+    </div>
+    <div class="col col-50 nopadding" style="background-color:rgb(204,204,204);">
+        <a class="item" ng-href="#tab/sortdetail/{{childdata.childchildID}}" ng-repeat="childdata in childdatas" style="background-color:rgb(204,204,204);">{{childdata.childchildname}}</a>
+      </div>
+  </div>
+  </ion-content>
+</ion-view>

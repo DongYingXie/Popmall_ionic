@@ -1,0 +1,21 @@
+
+<ion-view title="">
+ <ion-header-bar align-title="center" class=" bar bar-header item-input-inset bar-stable">
+       <ion-nav-back-button class="button-icon ion-arrow-left-c">
+      </ion-nav-back-button>
+  <label class="item-input-wrapper">
+
+    <i class="icon ion-ios7-search placeholder-icon"></i>
+    <form><input type="search" placeholder="Search" mysearch  name="search" id="search" searchinfo="seachPro()"/> </form>   
+  </label>
+  <button class="button  icon-left ion-qr-scanner button-balanced button-clear" ng-click="scanBarcode()" ></button>
+</ion-header-bar>
+  <ion-content class="padding">
+  <div class="row " style="margin-left:10px; margin-top:10px;" ng-repeat="sorts in sorts">
+  <div class="col col-25" ><a href="#tab/sortdetail/{{sorts.sotrby[0].id}}"><img ng-src="{{sorts.sotrby[0].img}}" /><br/>{{sorts.sotrby[0].name}}<br/></a></div>  
+  <div class="col col-25"><a href="#tab/sortdetail/{{sorts.sotrby[1].id}}"><img ng-src="{{sorts.sotrby[1].img}}" /><br/>{{sorts.sotrby[1].name}}<br/></a></div>  
+  <div class="col col-25"><a href="#tab/sortdetail/{{sorts.sotrby[2].id}}"><img ng-src="{{sorts.sotrby[2].img}}" /><br/>{{sorts.sotrby[2].name}}</a></div> 
+   <div class="col col-25"><a href="#tab/sortdetail/{{sorts.sotrby[3].id}}"><img ng-src="{{sorts.sotrby[3].img}}" /><br/>{{sorts.sotrby[3].name}}</a></div> 
+  </div> 
+  </ion-content>
+</ion-view>

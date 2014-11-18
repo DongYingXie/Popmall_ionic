@@ -1,0 +1,55 @@
+[{
+	"brandID": "001",
+	"brandLogo": "img/ionic.png",
+	"brandName": "佳帝欧旗舰店",
+	"brandImg": [{
+		"imgID": "0010",
+		"imgLoc": "img/1b.jpg",
+		"imgPric": "123"
+	}, {
+		"imgID": "0010",
+		"imgLoc": "img/1b.jpg",
+		"imgPric": "123"
+	}, {
+		"imgID": "0010",
+		"imgLoc": "img/1b.jpg",
+		"imgPric": "123"
+	}]
+
+}, {
+	"brandID": "002",
+	"brandLogo": "img/ionic.png",
+	"brandName": "佳帝欧旗舰店",
+	"brandImg": [{
+		"imgID": "0010",
+		"imgLoc": "img/1b.jpg",
+		"imgPric": "123"
+	}, {
+		"imgID": "0010",
+		"imgLoc": "img/1b.jpg",
+		"imgPric": "123"
+	}, {
+		"imgID": "0010",
+		"imgLoc": "img/1b.jpg",
+		"imgPric": "123"
+	}]
+
+}, {
+	"brandID": "003",
+	"brandLogo": "img/ionic.png",
+	"brandName": "佳帝欧旗舰店",
+	"brandImg": [{
+		"imgID": "0010",
+		"imgLoc": "img/1b.jpg",
+		"imgPric": "123"
+	}, {
+		"imgID": "0010",
+		"imgLoc": "img/1b.jpg",
+		"imgPric": "123"
+	}, {
+		"imgID": "0010",
+		"imgLoc": "img/1b.jpg",
+		"imgPric": "123"
+	}]
+
+}]
